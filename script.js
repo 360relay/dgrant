@@ -1,5 +1,5 @@
 /**
- * Lifeline Community Grant – Application Form Handler
+ * Grant Bridge Hub – Application Form Handler
  * Connects to Google Sheets via Google Apps Script
  */
 
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 Application Submitted!
             </h2>
             <p style="font-size: 1.05rem; color: #1e3347; line-height: 1.7; margin-bottom: 8px;">
-                Thank you for applying to the <strong>Lifeline Community Grant</strong>.
+                Thank you for applying to the <strong>Grant Bridge Hub</strong>.
             </p>
             <div style="background: #f0f7ff; border-radius: 16px; padding: 16px 20px; margin: 20px 0; text-align: left; border-left: 4px solid #6c5ce7;">
                 <p style="font-size: 0.95rem; color: #1a3349; margin-bottom: 6px;">
