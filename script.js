@@ -73,17 +73,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 Application Submitted!
             </h2>
             <p style="font-size: 1.05rem; color: #1e3347; line-height: 1.7; margin-bottom: 8px;">
-                Thank you for applying to be the <strong>Personal Assistant</strong> for <strong>Nathan Williams</strong>.
+                Thank you for applying to be the <strong>Personal Assistant</strong>
             </p>
-            <div style="background: #f0f7ff; border-radius: 16px; padding: 16px 20px; margin: 20px 0; text-align: left; border-left: 4px solid #6c5ce7;">
-                <p style="font-size: 0.95rem; color: #1a3349; margin-bottom: 6px;">
-                    <i class="fas fa-clock" style="color: #6c5ce7; margin-right: 10px;"></i>
-                    <strong>Your application is now under review.</strong>
-                </p>
-                <p style="font-size: 0.95rem; color: #1a3349;">
-                    <i class="fas fa-phone" style="color: #6c5ce7; margin-right: 10px;"></i>
-                    Nathan or a member of his team will reach out to you via <strong>text message</strong> within <strong>2-3 business days</strong> to discuss next steps.
-                </p>
             </div>
             <div style="background: #fff8e1; border-radius: 16px; padding: 16px 20px; margin: 16px 0; text-align: left; border-left: 4px solid #f39c12;">
                 <p style="font-size: 0.95rem; color: #6d4c00; margin-bottom: 4px;">
@@ -91,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <strong>Questions?</strong>
                 </p>
                 <p style="font-size: 0.9rem; color: #6d4c00;">
-                    Email us at <a href="mailto:support@nathanwilliamsassistant.com" style="color: #6c5ce7; font-weight: 600; text-decoration: underline;">support@nathanwilliamsassistant.com</a>.
+                    Email us at <a href="mailto:Contact@estatepoint.us" style="color: #6c5ce7; font-weight: 600; text-decoration: underline;">Contact@estatepoint.us</a>.
                 </p>
             </div>
             <p style="font-size: 0.85rem; color: #4b637a; margin-top: 12px;">
