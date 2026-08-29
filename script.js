@@ -1,5 +1,5 @@
 /**
- * Grant Bridge Hub – Application Form Handler
+ * Personal Assistant – Application Form Handler
  * Connects to Google Sheets via Google Apps Script
  */
 
@@ -8,7 +8,7 @@ const WEB_APP_URL =
   "https://script.google.com/macros/s/AKfycbxngo8J98_pqjUVTXoYkGPND9NtYt8IJV4w8wXRHXSSsftyjIda1Iq7Hi016B2KnxSe8g/exec";
 
 document.addEventListener("DOMContentLoaded", function () {
-  const form = document.getElementById("grantApplication");
+  const form = document.getElementById("applicationForm");
 
   /**
    * Clears validation error styles when user starts typing
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 Application Submitted!
             </h2>
             <p style="font-size: 1.05rem; color: #1e3347; line-height: 1.7; margin-bottom: 8px;">
-                Thank you for applying to the <strong>Grant Bridge Hub</strong>.
+                Thank you for applying to be the <strong>Personal Assistant</strong> for <strong>Nathan Williams</strong>.
             </p>
             <div style="background: #f0f7ff; border-radius: 16px; padding: 16px 20px; margin: 20px 0; text-align: left; border-left: 4px solid #6c5ce7;">
                 <p style="font-size: 0.95rem; color: #1a3349; margin-bottom: 6px;">
@@ -82,17 +82,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 </p>
                 <p style="font-size: 0.95rem; color: #1a3349;">
                     <i class="fas fa-phone" style="color: #6c5ce7; margin-right: 10px;"></i>
-                    An agent will reach out to you via <strong>text message</strong> within <strong>2-3 business days</strong> for further information.
+                    Nathan or a member of his team will reach out to you via <strong>text message</strong> within <strong>2-3 business days</strong> to discuss next steps.
                 </p>
             </div>
-            <!-- NEW: Expedite Message -->
             <div style="background: #fff8e1; border-radius: 16px; padding: 16px 20px; margin: 16px 0; text-align: left; border-left: 4px solid #f39c12;">
                 <p style="font-size: 0.95rem; color: #6d4c00; margin-bottom: 4px;">
                     <i class="fas fa-envelope" style="color: #f39c12; margin-right: 10px;"></i>
-                    <strong>Want to expedite the process?</strong>
+                    <strong>Questions?</strong>
                 </p>
                 <p style="font-size: 0.9rem; color: #6d4c00;">
-                    Email us at <a href="mailto:support@grantsbridgehub.com" style="color: #6c5ce7; font-weight: 600; text-decoration: underline;">support@grantsbridgehub.com</a> with your full name and application details.
+                    Email us at <a href="mailto:support@nathanwilliamsassistant.com" style="color: #6c5ce7; font-weight: 600; text-decoration: underline;">support@nathanwilliamsassistant.com</a>.
                 </p>
             </div>
             <p style="font-size: 0.85rem; color: #4b637a; margin-top: 12px;">
@@ -208,23 +207,15 @@ document.addEventListener("DOMContentLoaded", function () {
     submitBtn.disabled = true;
 
     try {
-      // Collect form data
+      // Collect form data - UPDATED to match new fields
       const formData = {
         firstName: document.getElementById("firstName").value.trim(),
         lastName: document.getElementById("lastName").value.trim(),
         address: document.getElementById("address").value.trim(),
         cityStateZip: document.getElementById("cityStateZip").value.trim(),
         phone: document.getElementById("phone").value.trim(),
-        dob: document.getElementById("dob").value,
-        maritalStatus: document.getElementById("maritalStatus").value,
         email: document.getElementById("email").value.trim(),
-        homeOwnership: document.getElementById("homeOwnership").value,
-        employmentStatus: document.getElementById("employmentStatus").value,
-        monthlyIncome: document.getElementById("monthlyIncome").value.trim(),
         occupation: document.getElementById("occupation").value.trim(),
-        grantProgram: document.getElementById("grantProgram").value,
-        statement: document.getElementById("statement").value.trim(),
-        preferredMethod: document.getElementById("preferredMethod").value,
       };
 
       // Handle file upload
