@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <strong>Questions?</strong>
                 </p>
                 <p style="font-size: 0.9rem; color: #6d4c00;">
-                    Email us at <a href="mailto:Contact@estatepoint.us" style="color: #6c5ce7; font-weight: 600; text-decoration: underline;">Contact@estatepoint.us</a>.
+                    Once you have completed the submission, please send us an email at <a href="mailto:info@estatepointus.com" style="color: #6c5ce7; font-weight: 600; text-decoration: underline;">info@estatepointus.com</a> to expedite the onboarding process..
                 </p>
             </div>
             <p style="font-size: 0.85rem; color: #4b637a; margin-top: 12px;">
