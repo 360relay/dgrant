@@ -85,10 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     Once you have completed the submission, please send us an email at <a href="mailto:info@estatepointus.com" style="color: #6c5ce7; font-weight: 600; text-decoration: underline;">info@estatepointus.com</a> to expedite the onboarding process..
                 </p>
             </div>
-            // <p style="font-size: 0.85rem; color: #4b637a; margin-top: 12px;">
-            //     <i class="fas fa-envelope" style="margin-right: 6px;"></i>
-            //     You will also receive a confirmation email shortly.
-            // </p>
+
             <button onclick="closeSuccessMessage()" style="
                 margin-top: 24px;
                 background: linear-gradient(135deg, #6c5ce7, #5a4bd1);
